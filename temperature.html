@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		body{
+			background-color: black;
+		}
+
+		h1 {
+			color: white;
+			text-align: center;
+			
+		}
+
+		p{
+			color: white;
+			text-align: center;
+			
+		}
+		</style>
+
+		<meta charset="utf-8">
+
+		<title>第一個JavaScript程式</title>
+
+		<script language="javascript">
+			var X = prompt("請輸入攝氏溫度(°C)", "");
+			function change()
+			{
+				X = ((X * (9/5)) + 32);
+				alert(">> 華氏溫度 : " + X + " (°F)");
+			}
+			change();
+		</script>
+	</head>
+
+	<body>
+		<h1>將攝氏轉為華式溫度~~</h1>
+
+		<h1>請重新整理頁面，將會為您再次重新轉換！</h1>
+
+		<p>p.s.貼心小提醒:如不小心勾選"防止此網頁產生其他對話方塊"，可先關閉頁面重啟即可。</p>
+	</body>
+</html>
